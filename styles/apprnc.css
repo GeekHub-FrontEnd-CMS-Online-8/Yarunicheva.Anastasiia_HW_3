@@ -1,0 +1,23 @@
+.one {
+	border: 1px solid black;
+	width: 100%;
+}
+
+th, td {
+	border: 1px inset black;
+}
+
+.two {
+	border: 1px solid black;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.three {
+	border: 3px ridge grey;
+	border-collapse: collapse;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}

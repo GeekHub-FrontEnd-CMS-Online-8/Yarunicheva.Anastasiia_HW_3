@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomeWork#3</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+	<form action="#" method="get">
+		<fieldset class="field_1">
+			<legend>Коротко о себе</legend>
+			<label>Имя:<input class="name" type="text" name="first"></label>
+			<label>Фамилия:<input class="name" type="text" name="familyname"></label>
+		   <div>
+			<label>Пол:<input type="radio" name="sex">мужской</label>
+			<label><input type="radio" name="sex">женский</label>
+		   </div>
+			<label>Возраст:<input class="age" type="number" name="age">лет</label>
+		</fieldset>
+		<fieldset class="field_2"><legend>Подробнее</legend>
+		    <label><input type="radio" name="male">Молодой человек</label><br>
+		    <label><input type="radio" name="male">Девушка</label><br>
+          <div>
+		    <label><input type="text" name="date">Дата рождения</label><br>
+		    <label><input type="text" name="mar">Семейное положение</label><br>
+		    <label><input type="text" name="status">Социальный статус</label><br>
+		    <label><input type="text" name="residence">Местожительство</label>
+	      </div><br>
+		<p>Что вы  обычно делаете на выходных:</p>
+		  <div class="zero"><label><input type="checkbox" name="sleep">Сплю</label><br>
+		    <label><input type="checkbox" name="walk">Гуляю с друзьями</label><br>
+		    <label><input type="checkbox" name="fish">Хожу на рыбалку</label><br>
+		    <label><input type="checkbox" name="game">Играю в игры</label></div><br>
+		<p>Рассказать о формах в книге, посвященной HTML:</p><br>
+		   <select>
+			 <option>Item 1</option>
+			 <option>Item 2</option>
+			 <option>Item 3</option>
+		   </select><br>
+		<p>Сколько книг вы прочитали за свою жизнь:</p>
+		  <div class="zero"><label><input type="radio" name="number">0-10</label><br>
+		    <label><input type="radio" name="number">11-20</label><br>
+		    <label><input type="radio" name="number">21-50</label><br>
+		    <label><input type="radio" name="number">50+</label></div><br>
+		<p>Ваши комментарии</p>
+		   <textarea></textarea><br>
+		   <select size="3">
+			 <option>Первая позиция</option>
+			 <option>Вторая позиция</option>
+		 	 <option>Третья позиция</option>
+		   </select>
+	    </fieldset>
+	    <fieldset class="field_3">
+	    	<legend>И в заключении</legend>
+	    	<input class="name" type="text" name="field" placeholder="Это поле было введено до вас">
+	    	<label for="mail">E-mail</label>
+	    	<input class="name" id="mail" type="email" name="username">
+	    <p>Хотите подписаться на самую модную рассылку спама?</p>
+	      <div class="it">Выберите категории</div>
+	      <div>
+	    	<label><input type="checkbox" name="tools">Оборудование</label><br>
+	    	<label><input type="checkbox" name="cook">Как приготовить обеды</label><br>
+	    	<label><input type="checkbox" name="million">Заработай миллион за два дня!</label><br>
+	      </div>
+	    <p>На сколько сложная задача:</p>
+	      <div>
+	    	<label><input type="radio" name="task">Совсем нет</label><br>
+	    	<label><input type="radio" name="task">Так себе</label><br>
+	    	<label><input type="radio" name="task">Еле справились</label>
+	      </div>
+	    </fieldset><br>
+	    <button>Отправить</button>
+	</form>
+</body>
+</html>
