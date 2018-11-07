@@ -5,10 +5,18 @@ body {
 }
 
 fieldset {
+	margin-top: 30px;
 	background-color: #7C77DE;
 	border: solid 5px;
 	border-color: #403B95;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.field_1 input {
+	margin-bottom: 15px;
 }
 
 legend {
@@ -17,26 +25,12 @@ legend {
 	color: #D4D4D8;
 }
 
-.field_1 {
-	height: 195px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 .name {
 	width: 260px;
 }
 
 .age {
 	width: 50px;
-}
-
-.field_2 {
-	height: 760px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 }
 
 div {
@@ -58,19 +52,8 @@ textarea {
 	background: #CDCCEA;
 }
 
-.field_3 {
-	height: 355px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 .it {
 	font-style: italic;
-}
-
-fieldset {
-	margin-top: 30px;
 }
 
 button {
